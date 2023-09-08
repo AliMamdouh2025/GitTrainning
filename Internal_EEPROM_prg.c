@@ -32,7 +32,7 @@
 #include "Internal_EEPROM_private.h"
 
 uint8 x;
-uint16 PWMVAL;
+uint16 PWMVAL = 100;
 
 /***********************************[1]***********************************************
  * Service Name: MADC_VidGetSWVersion
