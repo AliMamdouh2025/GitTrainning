@@ -33,6 +33,7 @@
 
 uint8 x;
 uint16 PWMVAL = 100;
+#define PULL 1238
 
 /***********************************[1]***********************************************
  * Service Name: MADC_VidGetSWVersion
